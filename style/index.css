@@ -117,7 +117,6 @@ form .form-group {
   transition: 0.25s ease-in-out;
 }
 
-
 .register a:hover {
   color: var(--pink);
   text-decoration: underline;
@@ -168,7 +167,6 @@ button:hover {
   align-items: center;
   gap: 5px;
 }
-
 
 .blob {
   position: absolute;
