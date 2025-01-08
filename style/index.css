@@ -33,8 +33,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #ffffff26;
-  border: 1px solid #ffffff33;
+  background-color: #fff3;
+  border: 1px solid #fff3;
   padding-block: 48px;
   padding-inline: 40px;
   height: 480px;
@@ -53,6 +53,11 @@ body {
 form .form-group {
   margin-block-end: 2rem;
   position: relative;
+}
+
+.form-option input {
+  margin-inline-end: 4px;
+  accent-color: var(--pink);
 }
 
 .form-group input {
@@ -101,15 +106,17 @@ form .form-group {
   transition: 0.25s ease-in-out;
 }
 
-.form-option input {
-  margin-inline-end: 4px;
-  accent-color: var(--pink);
-}
-
 .form-group input:focus ~ span,
 .form-group input:valid ~ span {
   color: var(--pink);
 }
+
+.register a {
+  color: var(--white);
+  font-weight: 500;
+  transition: 0.25s ease-in-out;
+}
+
 
 .register a:hover {
   color: var(--pink);
@@ -162,11 +169,6 @@ button:hover {
   gap: 5px;
 }
 
-.register a {
-  color: var(--white);
-  font-weight: 500;
-  transition: 0.25s ease-in-out;
-}
 
 .blob {
   position: absolute;
